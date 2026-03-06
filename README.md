@@ -165,4 +165,4 @@ The implementation of this project will use the following technologies:
 
 ---
 
-## Repository Structure
+## Repository Structur

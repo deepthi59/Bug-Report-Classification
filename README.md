@@ -89,27 +89,6 @@ Contextual embeddings generated using pre-trained transformer models such as **B
 
 ---
 
-## Model Development
-
-Two categories of models will be implemented and compared.
-
-### Traditional Machine Learning Models
-
-- Logistic Regression
-- Naive Bayes
-- Support Vector Machines
-
-These models will serve as baseline classifiers.
-
-### Transformer-Based Deep Learning Models
-
-- BERT (Bidirectional Encoder Representations from Transformers)
-- DistilBERT
-
-Transformer models capture contextual relationships in natural language and are expected to improve classification performance.
-
----
-
 ## Model Evaluation
 
 Model performance will be evaluated using standard classification metrics:
@@ -121,19 +100,6 @@ Model performance will be evaluated using standard classification metrics:
 - Confusion Matrix
 
 A comparative analysis will be conducted to evaluate the effectiveness of traditional machine learning approaches versus transformer-based models.
-
----
-
-## Example Prediction
-
-**Input Bug Report**
-
-Application crashes when uploading large image files.
-
-**Predicted Output**
-
-Bug Category: Crash Bug  
-Severity Level: Critical
 
 ---
 
@@ -164,5 +130,3 @@ The implementation of this project will use the following technologies:
 8. Development of Final Prediction System  
 
 ---
-
-## Repository Structure

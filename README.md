@@ -107,9 +107,8 @@ Two feature extraction approaches are used:
   - **Logistic Regression**  
 
 #### b) Deep Learning Models
-- Uses pre-trained transformer models like **BERT** or **DistilBERT** to generate contextual embeddings from text.  
-- Embeddings are used for deep learning-based classification.  
-- A simple **Text-CNN** model is also trained on word embeddings for comparison.
+- **Text-CNN:** Trained on word embeddings to capture local patterns in text.  
+- **Transformer-Based Models (BERT / DistilBERT):** Pre-trained transformers generate contextual embeddings and are fine-tuned for classification.  
 
 ---
 
@@ -121,7 +120,7 @@ Two feature extraction approaches are used:
 - F1 Score  
 - Confusion Matrix  
 
-Comparative analysis: traditional ML vs transformer-based models.
+Comparative analysis: traditional ML vs Deep Learning Models.
 
 ---
 

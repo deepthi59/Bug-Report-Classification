@@ -46,25 +46,21 @@ The primary objectives of this project are:
 
 ## Dataset
 
-The project will utilize publicly available bug report datasets from open-source software repositories such as:
+This project utilizes the 50K Bug Report Dataset from Kaggle, a large‑scale collection of software defect reports aggregated from multiple open‑source repositories. The dataset contains over 50,000 real bug reports, making it suitable for training and evaluating machine learning and transformer‑based models for automated bug triaging.The dataset can be accessed at the following link:
 
-- **GitHub Issues Dataset**
-- **Mozilla Bugzilla Repository**
-- **Eclipse Bug Repository**
+https://www.kaggle.com/datasets/mirzayasirabdullah07/50k-bug-dataset
+ 
+The dataset includes the following key fields:
 
-These datasets typically contain the following information:
+  -Title / Summary – a short description of the issue
 
-- Bug title or summary
-- Bug description
-- Component or module information
-- Priority or severity level
-- Issue labels or tags
+  -Description – detailed textual information about the bug
 
-For the purpose of this project:
+  -Component / Module – the part of the system affected
 
-- The **bug title and description will be combined to create the textual input features**.
-- **Component or label fields will be used to identify bug categories**.
-- **Severity or priority fields will be used to determine bug severity levels**.
+  -Priority / Severity – the urgency or impact of the issue
+
+  -Labels / Tags – metadata used for categorizing the bug
 
 ---
 

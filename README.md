@@ -154,45 +154,58 @@ The project implementation uses the following technologies:
 8. Development of Final Prediction System
 ---
 
-System Architecture
+## System Architecture
 
 The proposed system follows a structured pipeline for automated bug classification and severity prediction.
-Bug Report Input
-Raw bug reports containing the title and description are provided as input.
 
-Text Preprocessing
-The text is cleaned through lowercasing, punctuation removal, stopword removal, and tokenization.
+### Bug Report Input
+- Raw bug reports containing the **title** and **description** are provided as input.
 
-Feature Extraction
-TF-IDF vectors are generated for traditional machine learning models.
-Transformer embeddings are used for deep learning models.
+### Text Preprocessing
+- Lowercasing
+- Punctuation removal
+- Stopword removal
+- Tokenization
 
-Model Training
-The system trains multiple models including:
-Logistic Regression
-Support Vector Machines (SVM)
-Text-CNN
-DistilBERT
+### Feature Extraction
+- **TF-IDF vectors** for traditional machine learning models (e.g., Logistic Regression, SVM)  
+- **Word embeddings** for deep learning models (Text-CNN)  
+- **Transformer embeddings** generated using pre-trained BERT/DistilBERT and fine-tuned for classification
 
-Prediction
-The trained models predict:
-Bug Category
-Severity Level
+### Model Training
+The system trains multiple models:  
+- Logistic Regression  
+- Support Vector Machines (SVM)  
+- Text-CNN  
+- BERT/DistilBERT  
 
-Evaluation
-Model performance is evaluated using classification metrics.
+### Prediction
+The trained models predict:  
+- **Bug Category**  
+- **Severity Level**
 
-Error Analysis
-Understand model weaknesses
-Improve preprocessing or feature engineering
-Guide future dataset refinement
+### Evaluation
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
+- Confusion Matrix  
+
+### Error Analysis
+- Understand model weaknesses  
+- Improve preprocessing or feature engineering  
+- Guide future dataset refinement
 
 ----
 
-Future Work
-Future improvements to the system may include:
-Integration with real issue-tracking systems such as GitHub and Jira
-Development of a web interface for real-time bug prediction
-Training larger transformer models such as BERT-Large
-Multi-label classification for complex bug reports
-Automatic detection of duplicate bug reports
+## Future Work
+
+Future improvements to the system may include:  
+
+- Integration with real issue-tracking systems such as **GitHub** and **Jira**  
+- Development of a **web interface** for real-time bug prediction  
+- Training larger transformer models such as **BERT-Large** for better performance  
+- Implementing **multi-label classification** for complex bug reports  
+- Automatic detection of **duplicate bug reports**  
+
+----

@@ -1,4 +1,4 @@
-# AI-Driven Bug Report Classification and Severity Prediction
+# AI-Driven Bug Report Classification and Severity Prediction System
 
 ## Abstract
 

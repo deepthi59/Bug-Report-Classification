@@ -46,22 +46,36 @@ The primary objectives of this project are:
 
 ## Dataset
 
-This project utilizes the 50K Bug Report Dataset from Kaggle, a large‑scale collection of software defect reports aggregated from multiple open‑source repositories. The dataset contains over 50,000 real bug reports, making it suitable for training and evaluating machine learning and transformer‑based models for automated bug triaging.The dataset can be accessed at the following link:
+This project uses the **50K Bug Dataset** from Kaggle, which contains real-world bug reports collected from issue tracking systems. These reports include textual descriptions and labels that help categorize software defects.
 
-https://www.kaggle.com/datasets/mirzayasirabdullah07/50k-bug-dataset
- 
+### 📥 Dataset Source
+
+- **Dataset Name:** 50K Bug Dataset  
+- **Platform:** Kaggle  
+- **Access Link:** [Download Dataset](https://www.kaggle.com/datasets/mirzayasirabdullah07/50k-bug-dataset?resource=download)
+
+### 🧾 Dataset Features
+
 The dataset includes the following key fields:
 
-  -Title / Summary – a short description of the issue
+- **title:** A short summary of the bug.  
+- **description:** A detailed explanation of the issue reported by the user or developer.  
+- **bug_category:** The type of bug, such as UI bug, performance issue, security vulnerability, or crash.  
+- **severity:** Indicates how critical the bug is, e.g., low, medium, high, or critical.
 
-  -Description – detailed textual information about the bug
+### 📌 How the Dataset is Used
 
-  -Component / Module – the part of the system affected
+In this project:
 
-  -Priority / Severity – the urgency or impact of the issue
+- **Text Input Features:**  
+  The **title** and **description** fields are combined to create the textual input for the models.
 
-  -Labels / Tags – metadata used for categorizing the bug
+- **Bug Classification Task:**  
+  The **bug_category** field is used as the **target label** for classifying the type of bug.
 
+- **Severity Prediction Task:**  
+  The **severity** field is used to train models to **predict how critical a bug is**.
+  
 ---
 
 ## Methodology

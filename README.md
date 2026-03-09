@@ -83,25 +83,29 @@ In this project:
 The proposed system will follow a structured machine learning pipeline.
 
 ### Data Preprocessing
-The textual bug reports will undergo several preprocessing steps including:
+-The bug title and description will be combined into a single text field.
 
-- Text normalization
-- Tokenization
-- Removal of punctuation and special characters
-- Stop-word removal
-- Lowercasing of text
+-The text will be cleaned by lowercasing, removing punctuation, removing stop‑words, and tokenizing.
+
+-These steps ensure the input is consistent and ready for feature extraction.
 
 ### Feature Representation
 
 Two different feature extraction techniques will be explored:
 
-**TF-IDF Representation**
+**TF-IDF Representation(for Traditional ML Models)**
 
-Term Frequency–Inverse Document Frequency (TF-IDF) will be used to convert textual bug reports into numerical vectors suitable for traditional machine learning algorithms.
+-TF‑IDF will convert the cleaned text into numerical vectors.
 
-**Transformer-Based Embeddings**
+-These vectors will be used to train traditional models such as SVM and Logistic Regression.
 
-Contextual embeddings generated using pre-trained transformer models such as **BERT** or **DistilBERT** will be used for deep learning-based classification.
+**Transformer-Based Embeddings(for Deep Learning Models)**
+
+-Pre‑trained models like BERT or DistilBERT will generate contextual embeddings from the text.
+
+-These embeddings will be used for deep learning‑based classification.
+
+-A simple CNN (Text‑CNN) will also be trained using word embeddings for comparison.
 
 ---
 
@@ -140,7 +144,7 @@ The implementation of this project will use the following technologies:
 2. Data Cleaning and Preprocessing  
 3. Exploratory Data Analysis  
 4. Feature Extraction  
-5. Baseline Model Training (TF-IDF + ML Models)  
+5. Baseline Model Training (TF‑IDF with SVM and Logistic Regression)  
 6. Transformer Model Training (BERT / DistilBERT)  
 7. Model Evaluation and Performance Comparison  
 8. Development of Final Prediction System  

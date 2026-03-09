@@ -45,9 +45,8 @@ The primary objectives of this project are:
 2. **Design an NLP pipeline** capable of extracting meaningful features from unstructured bug report descriptions.  
 3. **Implement traditional machine learning models** (e.g., TF‑IDF + SVM) for automated bug type and severity classification.  
 4. **Develop and fine-tune transformer-based deep learning models** (e.g., DistilBERT) for improved contextual understanding and classification accuracy.  
-5. **Evaluate and compare the performance** of traditional ML methods and pre-trained transformer models across both classification tasks.  
+5. **Evaluate and compare the performance** of traditional ML models(such as Logistic Regression, SVM), the deep learning model (such as CNN), and the transformer model (BERT/DistilBERT) for bug classification and severity prediction. 
 6. **Demonstrate the effectiveness of AI-driven automation** in enhancing the speed, consistency, and reliability of bug triaging processes.
-7. **Evaluate** and compare the performance of traditional machine learning models (such as Logistic Regression, SVM), the deep learning model (such as CNN), and transformer-based pretrained models (such as BERT/DistilBERT) in terms of accuracy, robustness, and generalization for bug report classification and severity prediction.
 
 ---
 

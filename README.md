@@ -106,7 +106,7 @@ Two feature extraction approaches are used:
   - **Support Vector Machines (SVM)**  
   - **Logistic Regression**  
 
-#### b) Transformer-Based Embeddings (for Deep Learning Models)
+#### b) Deep Learning Models
 - Uses pre-trained transformer models like **BERT** or **DistilBERT** to generate contextual embeddings from text.  
 - Embeddings are used for deep learning-based classification.  
 - A simple **Text-CNN** model is also trained on word embeddings for comparison.
@@ -147,7 +147,7 @@ The project implementation uses the following technologies:
 3. Exploratory Data Analysis (EDA)  
 4. Feature Extraction  
 5. Baseline Model Training (TF‑IDF + SVM / Logistic Regression)  
-6. Transformer Model Training (BERT / DistilBERT)  
+6. Deep Learning Model Training (Text-CNN, BERT / DistilBERT)  
 7. Model Evaluation and Performance Comparison  
 8. Development of Final Prediction System
 ---

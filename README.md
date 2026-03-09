@@ -127,6 +127,8 @@ Comparative analysis: traditional ML vs transformer-based models.
 
 ## Technologies and Tools
 
+The project implementation uses the following technologies:
+
 - Python  
 - Scikit-learn  
 - HuggingFace Transformers  

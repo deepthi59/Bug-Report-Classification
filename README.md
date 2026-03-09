@@ -30,17 +30,12 @@ Automating these tasks can significantly improve the efficiency, consistency, an
 
 The primary objectives of this project are:
 
-1)To collect and preprocess real‑world bug report datasets from open‑source software repositories, ensuring high‑quality textual inputs for model training.
-
-2)To design an NLP pipeline capable of extracting meaningful features from unstructured bug report descriptions.
-
-3)To implement traditional machine learning models (e.g., TF‑IDF + SVM) for automated bug type and severity classification.
-
-4)To develop and fine‑tune transformer‑based deep learning models (e.g., DistilBERT) for improved contextual understanding and classification accuracy.
-
-5)To evaluate and compare the performance of traditional ML methods and pre‑trained transformer models across both classification tasks.
-
-6)To demonstrate the effectiveness of AI‑driven automation in enhancing the speed, consistency, and reliability of bug triaging processes.
+1. **Collect and preprocess real-world bug reports** from open-source software repositories, ensuring high-quality textual inputs for model training.  
+2. **Design an NLP pipeline** capable of extracting meaningful features from unstructured bug report descriptions.  
+3. **Implement traditional machine learning models** (e.g., TF‑IDF + SVM) for automated bug type and severity classification.  
+4. **Develop and fine-tune transformer-based deep learning models** (e.g., DistilBERT) for improved contextual understanding and classification accuracy.  
+5. **Evaluate and compare the performance** of traditional ML methods and pre-trained transformer models across both classification tasks.  
+6. **Demonstrate the effectiveness of AI-driven automation** in enhancing the speed, consistency, and reliability of bug triaging processes.
 
 ---
 

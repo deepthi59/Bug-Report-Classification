@@ -117,40 +117,39 @@ Two feature extraction approaches are used:
 
 Model performance will be evaluated using standard classification metrics:
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
+- **Accuracy** – Overall correctness of predictions  
+- **Precision** – Proportion of correctly predicted positive cases  
+- **Recall** – Ability to identify all relevant positive cases  
+- **F1 Score** – Harmonic mean of precision and recall  
+- **Confusion Matrix** – Visual representation of true vs. predicted labels  
 
-A comparative analysis will be conducted to evaluate the effectiveness of traditional machine learning approaches versus transformer-based models.
+A **comparative analysis** will be conducted to evaluate the effectiveness of **traditional machine learning approaches** (TF‑IDF + SVM / Logistic Regression) versus **transformer-based models** (BERT / DistilBERT).
 
 ---
 
 ## Technologies and Tools
 
-The implementation of this project will use the following technologies:
+The project implementation uses the following technologies:
 
-- Python
-- Scikit-learn
-- HuggingFace Transformers
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-- Jupyter Notebook
-- GitHub for version control and collaboration
+- **Python** – Programming language  
+- **Scikit-learn** – Machine learning library for traditional models  
+- **HuggingFace Transformers** – Pre-trained transformer models  
+- **Pandas** – Data manipulation and analysis  
+- **NumPy** – Numerical computing  
+- **Matplotlib / Seaborn** – Data visualization  
+- **Jupyter Notebook** – Interactive coding and experimentation  
+- **GitHub** – Version control and collaboration  
 
 ---
 
 ## Project Workflow
 
-1. Dataset Collection  
-2. Data Cleaning and Preprocessing  
-3. Exploratory Data Analysis  
-4. Feature Extraction  
-5. Baseline Model Training (TF‑IDF with SVM and Logistic Regression)  
-6. Transformer Model Training (BERT / DistilBERT)  
-7. Model Evaluation and Performance Comparison  
-8. Development of Final Prediction System  
-
+1. **Dataset Collection** – Downloading and organizing the 50K Bug Dataset from Kaggle  
+2. **Data Cleaning and Preprocessing** – Text cleaning, tokenization, stopword removal, and normalization  
+3. **Exploratory Data Analysis (EDA)** – Understanding dataset distribution and characteristics  
+4. **Feature Extraction** – TF‑IDF vectors for traditional ML; embeddings for deep learning models  
+5. **Baseline Model Training** – Train TF‑IDF + SVM and Logistic Regression models  
+6. **Transformer Model Training** – Train BERT / DistilBERT models for classification  
+7. **Model Evaluation and Performance Comparison** – Compare metrics across all models  
+8. **Development of Final Prediction System** – Integrate the best-performing model into an automated bug report classifier
 ---

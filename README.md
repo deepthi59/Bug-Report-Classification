@@ -80,32 +80,30 @@ In this project:
 
 ## Methodology
 
-The proposed system will follow a structured machine learning pipeline.
+The proposed system follows a structured machine learning pipeline for bug report classification and severity prediction.
 
-### Data Preprocessing
--The bug title and description will be combined into a single text field.
+### 1. Data Preprocessing
+- The **title** and **description** of each bug report are combined into a single text field.  
+- The text is cleaned by:
+  - Lowercasing  
+  - Removing punctuation  
+  - Removing stopwords  
+  - Tokenizing  
+- These steps ensure the input is consistent and ready for feature extraction.
 
--The text will be cleaned by lowercasing, removing punctuation, removing stop‑words, and tokenizing.
+### 2. Feature Representation
+Two feature extraction approaches are used:
 
--These steps ensure the input is consistent and ready for feature extraction.
+#### a) TF-IDF Representation (for Traditional ML Models)
+- Converts the cleaned text into numerical vectors using **TF-IDF**.  
+- These vectors are used to train traditional models such as:
+  - **Support Vector Machines (SVM)**  
+  - **Logistic Regression**  
 
-### Feature Representation
-
-Two different feature extraction techniques will be explored:
-
-**TF-IDF Representation(for Traditional ML Models)**
-
--TF‑IDF will convert the cleaned text into numerical vectors.
-
--These vectors will be used to train traditional models such as SVM and Logistic Regression.
-
-**Transformer-Based Embeddings(for Deep Learning Models)**
-
--Pre‑trained models like BERT or DistilBERT will generate contextual embeddings from the text.
-
--These embeddings will be used for deep learning‑based classification.
-
--A simple CNN (Text‑CNN) will also be trained using word embeddings for comparison.
+#### b) Transformer-Based Embeddings (for Deep Learning Models)
+- Uses pre-trained transformer models like **BERT** or **DistilBERT** to generate contextual embeddings from text.  
+- Embeddings are used for deep learning-based classification.  
+- A simple **Text-CNN** model is also trained on word embeddings for comparison.
 
 ---
 

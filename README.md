@@ -58,7 +58,7 @@ This project uses the **50K Bug Dataset** from Kaggle, which contains real-world
 
 - **Dataset Name:** 50K Bug Dataset  
 - **Platform:** Kaggle  
-- **Access Link:** [Download Dataset](https://www.kaggle.com/datasets/mirzayasirabdullah07/50k-bug-dataset?resource=download)
+- **Access Link:** [Bug Dataset](https://www.kaggle.com/datasets/mirzayasirabdullah07/50k-bug-dataset?resource=download)
 
 ### Dataset Features
 

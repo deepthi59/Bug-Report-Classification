@@ -47,7 +47,7 @@ The primary objectives of this project are:
 4. **Develop and fine-tune transformer-based deep learning models** (e.g., DistilBERT) for improved contextual understanding and classification accuracy.  
 5. **Evaluate and compare the performance** of traditional ML methods and pre-trained transformer models across both classification tasks.  
 6. **Demonstrate the effectiveness of AI-driven automation** in enhancing the speed, consistency, and reliability of bug triaging processes.
-7. **Evaluate** how traditional machine learning models (such as Logistic Regression, SVM) compare with transformer‑based pretrained models (such as                  BERT/DistilBERT) in terms of accuracy, robustness, and generalization for bug report classification and severity prediction.
+7. **Evaluate** and compare the performance of traditional machine learning models (such as Logistic Regression, SVM), the deep learning model (such as CNN), and transformer-based pretrained models (such as BERT/DistilBERT) in terms of accuracy, robustness, and generalization for bug report classification and severity prediction.
 
 ---
 

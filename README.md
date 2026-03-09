@@ -82,6 +82,9 @@ In this project:
 
 - **Severity Prediction Task:**  
   The **severity** field is used to train models to **predict how critical a bug is**.
+
+- **Dataset Splitting and Evaluation:**
+  The dataset is divided into training, validation, and testing sets to ensure fair evaluation.
   
 ---
 
@@ -179,6 +182,11 @@ Severity Level
 
 Evaluation
 Model performance is evaluated using classification metrics.
+
+Error Analysis
+Understand model weaknesses
+Improve preprocessing or feature engineering
+Guide future dataset refinement
 
 ----
 

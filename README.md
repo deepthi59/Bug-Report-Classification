@@ -48,13 +48,13 @@ The primary objectives of this project are:
 
 This project uses the **50K Bug Dataset** from Kaggle, which contains real-world bug reports collected from issue tracking systems. These reports include textual descriptions and labels that help categorize software defects.
 
-### 📥 Dataset Source
+### Dataset Source
 
 - **Dataset Name:** 50K Bug Dataset  
 - **Platform:** Kaggle  
 - **Access Link:** [Download Dataset](https://www.kaggle.com/datasets/mirzayasirabdullah07/50k-bug-dataset?resource=download)
 
-### 🧾 Dataset Features
+### Dataset Features
 
 The dataset includes the following key fields:
 
@@ -63,7 +63,7 @@ The dataset includes the following key fields:
 - **bug_category:** The type of bug, such as UI bug, performance issue, security vulnerability, or crash.  
 - **severity:** Indicates how critical the bug is, e.g., low, medium, high, or critical.
 
-### 📌 How the Dataset is Used
+### How the Dataset is Used
 
 In this project:
 

@@ -4,7 +4,7 @@
 
 Software maintenance teams rely heavily on bug reports to identify defects, prioritize issues, and plan corrective actions. However, large-scale software projects generate thousands of unstructured bug reports, making manual triaging slow, inconsistent, and resource-intensive.  
 
-This project proposes an **AI-driven Bug Report Detector** that classifies bug reports along two critical dimensions: **bug type** (e.g., functional, UI, performance) and **severity level** (e.g., minor, major, critical). Using **Natural Language Processing (NLP)** and machine learning techniques, the system analyzes textual bug reports to predict both the type and severity of each issue.  
+This project proposes an **AI-driven system** that classifies bug reports along two critical dimensions: **bug type** (e.g., functional, UI, performance) and **severity level** (e.g., minor, major, critical). Using **Natural Language Processing (NLP)** and machine learning techniques, the system analyzes textual bug reports to predict both the type and severity of each issue.  
 
 The goal is to support developers by **improving bug triaging efficiency**, enabling faster prioritization of defects, reducing workload, and enhancing overall software maintenance workflows.
 

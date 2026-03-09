@@ -150,3 +150,41 @@ The project implementation uses the following technologies:
 7. Model Evaluation and Performance Comparison  
 8. Development of Final Prediction System
 ---
+
+System Architecture
+
+The proposed system follows a structured pipeline for automated bug classification and severity prediction.
+Bug Report Input
+Raw bug reports containing the title and description are provided as input.
+
+Text Preprocessing
+The text is cleaned through lowercasing, punctuation removal, stopword removal, and tokenization.
+
+Feature Extraction
+TF-IDF vectors are generated for traditional machine learning models.
+Transformer embeddings are used for deep learning models.
+
+Model Training
+The system trains multiple models including:
+Logistic Regression
+Support Vector Machines (SVM)
+Text-CNN
+DistilBERT
+
+Prediction
+The trained models predict:
+Bug Category
+Severity Level
+
+Evaluation
+Model performance is evaluated using classification metrics.
+
+----
+
+Future Work
+Future improvements to the system may include:
+Integration with real issue-tracking systems such as GitHub and Jira
+Development of a web interface for real-time bug prediction
+Training larger transformer models such as BERT-Large
+Multi-label classification for complex bug reports
+Automatic detection of duplicate bug reports
